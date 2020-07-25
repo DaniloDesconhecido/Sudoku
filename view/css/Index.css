@@ -5,6 +5,9 @@ input{
     float: left;
     margin: auto;
 }
+input::selection{
+    background: transparent;
+}
 
 .clear{
     clear: left;
@@ -23,6 +26,7 @@ input{
 }
 
 .cx{    
+    
     float: left;
     margin: 0;
     border: 1px solid black;
