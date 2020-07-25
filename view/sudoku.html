@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <script src="js/regras.js"></script>
+        <link rel="stylesheet" href="css/Index.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sudoku</title>
+    </head>
+    <body>
+        <div id="tabela">
+            <div class="cx">
+                <input type="text" name="c11" id="c11" class="c">
+                <input type="text" name="c12" id="c12" class="c">
+                <input type="text" name="c13" id="c13" class="c">
+                <input type="text" name="c21" id="c21" class="c clear">
+                <input type="text" name="c22" id="c22" class="c">
+                <input type="text" name="c23" id="c23" class="c">
+                <input type="text" name="c31" id="c31" class="c clear">
+                <input type="text" name="c32" id="c32" class="c">
+                <input type="text" name="c33" id="c33" class="c">
+            </div>
+
+            <div class="cx">
+                <input type="text" name="c14" id="c14" class="c">
+                <input type="text" name="c15" id="c15" class="c">
+                <input type="text" name="c16" id="c16" class="c">
+                <input type="text" name="c24" id="c24" class="c clear">
+                <input type="text" name="c25" id="c25" class="c">
+                <input type="text" name="c26" id="c26" class="c">
+                <input type="text" name="c34" id="c34" class="c clear">
+                <input type="text" name="c35" id="c35" class="c">
+                <input type="text" name="c36" id="c36" class="c">
+            </div>
+
+            <div class="cx">
+                <input type="text" name="c17" id="c17" class="c">
+                <input type="text" name="c18" id="c18" class="c">
+                <input type="text" name="c19" id="c19" class="c">
+                <input type="text" name="c27" id="c27" class="c clear">
+                <input type="text" name="c28" id="c28" class="c">
+                <input type="text" name="c29" id="c29" class="c">
+                <input type="text" name="c37" id="c37" class="c clear">
+                <input type="text" name="c38" id="c38" class="c">
+                <input type="text" name="c39" id="c39" class="c">
+            </div>
+
+            <div class="cx clear">
+                <input type="text" name="c41" id="c41" class="c">
+                <input type="text" name="c42" id="c42" class="c">
+                <input type="text" name="c43" id="c43" class="c">
+                <input type="text" name="c51" id="c51" class="c clear">
+                <input type="text" name="c52" id="c52" class="c">
+                <input type="text" name="c53" id="c53" class="c">
+                <input type="text" name="c61" id="c61" class="c clear">
+                <input type="text" name="c62" id="c62" class="c">
+                <input type="text" name="c63" id="c63" class="c">
+            </div>
+
+            <div class="cx">
+                <input type="text" name="c44" id="c44" class="c">
+                <input type="text" name="c45" id="c45" class="c">
+                <input type="text" name="c46" id="c46" class="c">
+                <input type="text" name="c54" id="c54" class="c clear">
+                <input type="text" name="c55" id="c55" class="c">
+                <input type="text" name="c56" id="c56" class="c">
+                <input type="text" name="c64" id="c64" class="c clear">
+                <input type="text" name="c65" id="c65" class="c">
+                <input type="text" name="c66" id="c66" class="c">
+            </div>
+
+            <div class="cx">
+                <input type="text" name="c47" id="c47" class="c">
+                <input type="text" name="c48" id="c48" class="c">
+                <input type="text" name="c49" id="c49" class="c">
+                <input type="text" name="c57" id="c57" class="c clear">
+                <input type="text" name="c58" id="c58" class="c">
+                <input type="text" name="c59" id="c59" class="c">
+                <input type="text" name="c67" id="c67" class="c clear">
+                <input type="text" name="c68" id="c68" class="c">
+                <input type="text" name="c69" id="c69" class="c">
+            </div>
+
+            <div class="cx clear">
+                <input type="text" name="c71" id="c71" class="c">
+                <input type="text" name="c72" id="c72" class="c">
+                <input type="text" name="c73" id="c73" class="c">
+                <input type="text" name="c81" id="c81" class="c clear">
+                <input type="text" name="c82" id="c82" class="c">
+                <input type="text" name="c83" id="c83" class="c">
+                <input type="text" name="c91" id="c91" class="c clear">
+                <input type="text" name="c92" id="c92" class="c">
+                <input type="text" name="c93" id="c93" class="c">
+            </div>
+
+            <div class="cx">
+                <input type="text" name="c74" id="c74" class="c">
+                <input type="text" name="c75" id="c75" class="c">
+                <input type="text" name="c76" id="c76" class="c">
+                <input type="text" name="c84" id="c84" class="c clear">
+                <input type="text" name="c85" id="c85" class="c">
+                <input type="text" name="c86" id="c86" class="c">
+                <input type="text" name="c94" id="c94" class="c clear">
+                <input type="text" name="c95" id="c95" class="c">
+                <input type="text" name="c96" id="c96" class="c">
+            </div>
+
+            <div class="cx">
+                <input type="text" name="c77" id="c77" class="c">
+                <input type="text" name="c78" id="c78" class="c">
+                <input type="text" name="c79" id="c79" class="c">
+                <input type="text" name="c87" id="c87" class="c clear">
+                <input type="text" name="c88" id="c88" class="c">
+                <input type="text" name="c89" id="c89" class="c">
+                <input type="text" name="c97" id="c97" class="c clear">
+                <input type="text" name="c98" id="c98" class="c">
+                <input type="text" name="c99" id="c99" class="c">
+            </div>
+            
+        </div>
+    </body>
+</html>
